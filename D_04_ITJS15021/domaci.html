@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forma</title>
+  <link rel="stylesheet" href="domaci.css">
+</head>
+
+<body>
+
+  <form action="" method="post">
+    <fieldset>
+      <legend>Login details</legend>
+
+      <div class="one">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" maxlength="15">
+      </div>
+      
+      <div class="one">
+        <label for="mail">Email:</label>
+        <input type="email" name="mail" id="mail">
+      </div>
+     
+      <div class="one">
+        <label for="pass">Password:</label>
+        <input type="password" name="pass" id="pass">
+      </div>
+
+    </fieldset>
+  </form>
+
+  <form action="" method="post">
+    <fieldset>
+      <legend>Your feedback</legend>
+
+      <h4>Please check all the emotions that apply to you:</h4>
+
+      <div class="two">
+        <label for="an">Angry</label>
+        <input type="checkbox" name="an" id="an">
+      </div>
+
+      <div class="two">
+        <label for="sad">Sad</label>
+        <input type="checkbox" name="sad" id="sad">
+      </div>
+
+      <div class="two">
+        <label for="ha">Happy</label>
+        <input type="checkbox" name="ha" id="ha" checked>
+      </div>
+
+      <div class="two">
+        <label for="am">Ambivalent</label>
+        <input type="checkbox" name="am" id="am">
+      </div>
+
+      <h4>How satisfied were you with our service?</h4>
+
+      <p class="radio">Very satisfied</p>
+        <input type="radio" name="radio" id="">
+      <br>
+      <p class="radio">Satisfied</p>
+        <input type="radio" name="radio" id="">
+      <br>
+      <p class="radio">Didn't care</p>
+        <input type="radio" name="radio" id="">
+      <br>
+      <p class="radio">Dissatisfied</p>
+        <input type="radio" name="radio" id="">
+      <br>
+      <p class="radio">Very dissatisfied</p>
+        <input type="radio" name="radio" id="">
+
+      <div class="two1">
+        <label for="text">Further comments:</label>
+        <textarea name="text" id="text" cols="25" rows="3"></textarea>
+      </div>
+    </fieldset>
+  </form>
+
+  <div class="three">
+    <label for="bio">Bio photo:</label>
+    <input type="file" name="bio" id="bio">
+  </div>
+  
+  <div class="three">
+    <label for="loc">Location visited:</label>
+    <select name="loc" id="loc">
+      <option value="">Select location</option>
+      <option value="c">Canada</option>
+      <option value="m">Mexico</option>
+      <option value="b">Brazil</option>
+    </select>
+  </div>
+  
+  <div class="three">
+    <input type="submit" value="Submit" id="sub">
+  </div>
+  
+  <div class="three">
+    <input type="reset" value="reset" id="re">
+  </div>
+  
+</body>
+
+</html>

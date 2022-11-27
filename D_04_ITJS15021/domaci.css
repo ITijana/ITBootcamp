@@ -1,0 +1,48 @@
+form {
+  width: 650px;
+}
+
+.one, .two1 {
+  padding: 5px 50px;
+}
+
+input, textarea {
+  border: solid 2px;
+  border-color: rgb(206, 204, 204);
+  margin-left: 45px;
+}
+
+textarea {
+  margin-left: 15px;
+}
+
+.two {
+  padding: 3px 100px;
+}
+
+.three {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+#bio {
+  border: none;
+}
+
+#sub, #re {
+  border: solid 1px;
+  border-color: gray;
+}
+
+.radio {
+    display: inline-block;
+    margin: 0px;
+    padding-left: 100px;
+    padding-top: 5px;
+}
+
+h4 {
+  font-weight: lighter;
+  margin-left: 50px;
+}
+
