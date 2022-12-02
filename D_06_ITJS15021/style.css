@@ -87,6 +87,7 @@ body {
 .row {
   overflow: hidden;
   padding: 8px 0 5px 25px;
+  width: 100%;
 }
 
 input,
