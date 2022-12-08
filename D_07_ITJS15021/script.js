@@ -1,7 +1,10 @@
 // 1. zadatak
-let cena = 500;
-let pera = 1000;
-let mika = 800;
+let pera, mika, kusur;
+pera = 1000;
+mika = 800;
+kusur = 800;
+let cena = (pera + mika - kusur) / 2;
+console.log(cena);
 let kusurPera = pera - cena;
 let kusurMika = mika - cena;
 
@@ -12,7 +15,7 @@ console.log(`Mika je dobio kusur u iznosu od ${kusurMika} dinara.`);
 // 2.zadatak
 let poglavlje = 15;
 let prviDan = 5;
-let drugiDan = 7;
+let drugiDan = prviDan + 2;
 let preostalo = poglavlje - prviDan - drugiDan;
 /*console.log(preostalo);*/
 
@@ -21,8 +24,8 @@ if(preostalo < poglavlje/2) {
 }
 
 // 3.zadatak
-let u = 1500;
-let kcal = 1500 * 4.1868;
+let u = 2500;
+let kcal = u / 4.1868;
 /*console.log(kcal);*/
 
 if(kcal < 2000) {
