@@ -11,7 +11,7 @@ for (i = 1; i <= n; i++) {
 
 // 2. zadatak
 n = 11;
-broj = 2;
+let broj = 2;
 
 for (i = 2; i <= n / 2; i++) {
     if (n % i == 0) {
