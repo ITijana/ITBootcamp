@@ -11,6 +11,7 @@ function as(n, m) {
         } as = suma / br;
     } return as;
 }
+
 console.log(as(2, 13));
 
 // 2. nacin
@@ -24,6 +25,7 @@ let aSredina = (n, m) => {
         } as = suma / br;
     } return as;
 }
+
 console.log(aSredina(5, 16));
 
 
@@ -33,6 +35,7 @@ console.log(aSredina(5, 16));
 function stringBr(n, m) {
     document.write(`<p style="font-size:${n}px;">${m}</p>`);
 }  
+
 stringBr(20, "Ovo je prvi paragraf");
 
 //2.nacin

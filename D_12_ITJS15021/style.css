@@ -1,0 +1,11 @@
+table, td {
+    border: 1px solid black;
+    width: 400px;
+}
+
+img {
+    height: 100px;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-left: 10px;
+}
