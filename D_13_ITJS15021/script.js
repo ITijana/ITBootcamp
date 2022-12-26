@@ -20,7 +20,7 @@ let dan = {
         return tropskiDan;
     },
     nepovoljan: function() {
-        for(let i = 0; i < this.temperatura.length; i++) {
+        for(let i = 0; i < this.temperatura.length - 1; i++) {
             if(this.temperatura[i] - this.temperatura[i + 1] > 8) {
                 return true;
             }

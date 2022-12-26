@@ -23,8 +23,6 @@ let kosarka = niz => {
         tim += `
         <tr>
             <td>${niz[i]}</td>
-            <td></td>
-            <td></td>
         </tr>
         `;
     }
