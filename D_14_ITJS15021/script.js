@@ -45,10 +45,16 @@ let tabela = knjiga => {
             para.style.color = 'blue';
           }
           else {
-            para.style.color = 'gray';
+            para.style.color = 'grey';
           }
           td.appendChild(para);
           td.style.border = '2px solid black';
+        }
+        if(i % 2 == 0) {
+          tr.style.backgroundColor = "pink";
+        }
+        else {
+          tr.style.backgroundColor = "yellow";
         }
       }
     }
