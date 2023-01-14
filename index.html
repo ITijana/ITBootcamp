@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knjige</title>
+    <style>
+        button {
+            padding: 7px;
+            background-color: rgb(181, 214, 234);
+            border: none;
+            border-radius: 20px;
+        }
+
+        div:nth-child(3) {
+            border: 1px solid black;
+            padding: 0px 10px;
+            display: inline-block;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button id="autori">Autori cije je ime dugacko</button>
+        <p id="ime"></p>
+    </div>
+
+    <div>
+        <button id="obimneSkupe">Knjige koje su skupe i obimne</button>
+        <p id="knjige"></p>
+    </div>
+
+    <div>
+        <p id="ukupnaCena"></p>
+        <p id="prosecnaCena"></p>
+        <p id="cenaStranice"></p>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
