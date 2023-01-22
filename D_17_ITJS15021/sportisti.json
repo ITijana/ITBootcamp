@@ -1,0 +1,17 @@
+[
+    {
+       "imePrezime": "Tijana Milenkovic",
+       "visina": 164,
+       "timovi": ["Lakers", "Partizan", "Crvena zvezda"] 
+    },
+    {
+        "imePrezime": "Nikola Stevanovic",
+        "visina": 175,
+        "timovi": ["Partizan", "Crvena zvezda"] 
+    },
+    {
+        "imePrezime": "Dimitrije Stevanovic",
+        "visina": 210,
+        "timovi": ["Crvena zvezda","Lakers", "Partizan", "Crvena zvezda"] 
+    }
+]
