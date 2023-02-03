@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="row">
+        <div class="col-12 col-t-12 text-center">
+            <h1>ITBootcamp Chat</h1>
+            <h3>Choose a chatroom</h3>
+        </div>
+    </header>
+
+    <nav class="row">
+        <div class="col-12 col-t-12 text-center" id="navs">
+            <button id="general">#general</button>
+            <button id="js">#js</button>
+            <button id="homework">#homework</button>
+            <button id="tests">#tests</button>
+        </div>
+    </nav>
+
+    <section class="row">
+        <div class="col-3 col-t-3 text-center">&nbsp;</div>
+        <div class="col-6 col-t-6" id="message">
+            <ul>
+            </ul>
+        </div>
+        <div class="col-3 col-t-3 text-center">&nbsp;</div>
+    </section>
+
+    <footer class="row">
+        <div class="col-12 col-t-12 text-center">
+            <input type="text" name="inpMessage" id="inpMessage" placeholder="Type a message...">
+            <button id="send">Send</button><br><br>
+            <input type="text" name="inpUsername" id="inpUsername" placeholder="Update username">
+            <button id="update">Update</button>
+        </div>
+    </footer>
+
+    <div class="row">
+        <div class="col-12 col-t-12 text-center" id="display"></div>
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-firestore.js"></script>
+
+
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyA8xfDcG9RyAX1_r3fjUl-uczNteD5-VBk",
+            authDomain: "itbootcamp-js8-eed3b.firebaseapp.com",
+            projectId: "itbootcamp-js8-eed3b",
+            storageBucket: "itbootcamp-js8-eed3b.appspot.com",
+            messagingSenderId: "82749333022",
+            appId: "1:82749333022:web:40ca4509746b48152b980f",
+            measurementId: "G-6M21PJJVL2"
+        };
+        firebase.initializeApp(firebaseConfig);
+        let db = firebase.firestore();
+    </script>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

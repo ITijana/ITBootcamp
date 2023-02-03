@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+h1,
+h3 {
+    color: #8074d6;
+    text-align: center;
+}
+
+button {
+    background-color: #8074d6;
+    color: white;
+    border: none;
+    padding: 5px 30px;
+    width: 150px;
+}
+
+header {
+    color: #8074d6;
+    margin-bottom: 30px;
+}
+
+nav,
+footer {
+    text-align: center;
+}
+
+#message {
+    margin: 55px 0 30px 0;
+}
+
+#inpUsername[type="text"],
+#inpMessage[type="text"] {
+    color: black;
+    padding-left: 15px;
+}
+
+input {
+    width: 500px;
+    border-radius: 15px;
+    border: 1px solid black;
+    height: 50px;
+}
+
+nav button,
+footer button {
+    border-radius: 15px;
+}
+
+.row {
+    width: 100%;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    width: 400px;
+    background-color: #e5e1ff;
+    padding: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.username {
+    color: purple;
+}
+
+.message {
+    color: #8074d6;
+}
+
+.date {
+    color: grey;
+    text-align: end;
+    font-size: small;
+}
+
+#display {
+    text-align: center;
+    opacity: 0.8;
+}
+
+.active {
+    opacity: 0.5;
+}
+
+.right {
+    float: right;
+}
+
+/* Za mobilni uredjaj */
+
+@media only screen and (max-width:500px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    li {
+        width: 200px;
+    }
+
+    input {
+        width: 200px;
+    }
+}
+
+/* Za desktop */
+
+@media only screen and (min-width: 1000px) {
+    [class*="col-"] {
+        float: left;
+    }
+
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+/* Za tablet */
+
+@media only screen and (min-width: 501px) and (max-width: 999px) {
+    [class*="col-t"] {
+        float: left;
+    }
+
+    .col-t-1 {
+        width: 8.33%;
+    }
+
+    .col-t-2 {
+        width: 16.66%
+    }
+
+    .col-t-3 {
+        width: 25%;
+    }
+
+    .col-t-4 {
+        width: 33.33%;
+    }
+
+    .col-t-5 {
+        width: 41.66%;
+    }
+
+    .col-t-6 {
+        width: 50%;
+    }
+
+    .col-t-7 {
+        width: 58.33%;
+    }
+
+    .col-t-8 {
+        width: 66.66%;
+    }
+
+    .col-t-9 {
+        width: 75%;
+    }
+
+    .col-t-10 {
+        width: 83.33%;
+    }
+
+    .col-t-11 {
+        width: 91.66%;
+    }
+
+    .col-t-12 {
+        width: 100%;
+    }
+}
